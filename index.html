@@ -6,55 +6,47 @@
     <title></title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="globaltab">
-    <!--Div que engloba todo -->
-    <div class="global">
+  <body>
       <!--Hago la tabla -->
-      <table class="tabsell" >
+      <table class="tabsell">
         <!--Cabeza de tabla -->
         <thead class="thesell">
-          <caption class="sell">
-            Ventas mensuales
-          </caption>
+          <caption><span>Ventas mensuales</span></caption>
           <tr class="">
-            <th>Trabajador</th>
-            <th>Total</th>
-            <th>Departamento</th>
+            <th class="tabheader">Trabajador</th>
+            <th class="tabheader">Total</th>
+            <th class="tabheader">Departamento</th>
           </tr>
         </thead>
 
         <!--Cuerpo de tabla -->
-        <tbody class="tbosell">
+        <tbody>
+          <!--1r Tr TBODY -->
           <tr>
-            <!--1r Tr TBODY -->
-          </tr>
-
-          <tr>
-            <td>Alfred Futterkiste</td>
-            <td>5,135€</td>
-            <td>Costrucción</td>
+            <td class="borbott">Alfred Futterkiste</td>
+            <td class="borbott">5,135€</td>
+            <td class="borbott">Costrucción</td>
           </tr>
           <!--2o Tr TBODY -->
           <tr>
-            <td>Francisco Chang</td>
-            <td>3124,28</td>
-            <td>Dormitorios</td>
+            <td class="borbott">Francisco Chang</td>
+            <td class="borbott">3124,28</td>
+            <td class="borbott">Dormitorios</td>
           </tr>
           <!--3r Tr TBODY -->
           <tr>
-            <td>Maria Anders</td>
-            <td>1234.5</td>
-            <td>Comedores</td>
+            <td class="borbott">Maria Anders</td>
+            <td class="borbott">1234.5</td>
+            <td class="borbott">Comedores</td>
           </tr>
-        </tbody>
 
+        </tbody>
         <!--Pie de tabla -->
-        <tfoot>
+        <tfoot class="footsty">
           <tr>
             <td colspan="3">* El IVA no está incluido en las ventas</td>
           </tr>
         </tfoot>
       </table>
-    </div>
   </body>
 </html>
